@@ -1,0 +1,35 @@
+.container{
+  border-radius: 20px;
+  width: 350px;
+  height: 200px;
+  background: #73db0524;
+}
+
+.buttons{
+  display: inline-flex;
+  gap: 20px;
+}
+
+.increase{
+  padding: 10px;
+  background-color: green;
+  border: none;
+  font-size: 20px;
+  border-radius: 15px;
+}
+
+.decrease{
+  padding: 10px;
+  background-color: red;
+  border: none;
+  font-size: 20px;
+  border-radius: 15px;
+}
+
+.reset{
+  padding: 10px;
+  background-color: yellow;
+  border: none;
+  font-size: 20px;
+  border-radius: 15px;
+}
