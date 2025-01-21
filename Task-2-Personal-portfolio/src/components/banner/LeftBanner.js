@@ -11,7 +11,7 @@ import { SiAliexpress, SiJavascript, SiMongodb, SiNodedotjs } from "react-icons/
 
 const LeftBanner = () => {
   const [text] = useTypewriter({
-    words: ["Mern Stack developer", "Software Engineer.", "React Developer."],
+    words: ["MERN Stack developer", "Software Engineer.", "React Developer."],
     loop: true,
     typeSpeed: 20,
     deleteSpeed: 10,
@@ -25,16 +25,13 @@ const LeftBanner = () => {
           Hi, I'm <span className="text-designColor capitalize">Haresh Kumar</span>
         </h1>
         <h2 className="text-4xl font-bold text-white">
-          a <span>{text}</span>
+          A <span>{text}</span>
           <Cursor
             cursorBlinking="false"
             cursorStyle="|"
             cursorColor="#ff014f"
           />
         </h2>
-        <p className="text-base font-bodyFont leading-6 tracking-wide">
-         loream ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        </p>
       </div>
       <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">
         <div>

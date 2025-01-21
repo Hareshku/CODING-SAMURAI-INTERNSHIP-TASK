@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import { RiStarFill } from "react-icons/ri";
 import { HiArrowRight, HiArrowLeft } from "react-icons/hi";
 import Title from '../layouts/Title'
-import { testimonialOne,testimonialTwo, quote } from "../../assets";
+import { testimonialOne,testimonialTwo, quote, testimonial_3 } from "../../assets";
 
 
 function SampleNextArrow(props) {
@@ -108,24 +108,24 @@ const Testimonial = () => {
                 />
                 <div className="w-full flex flex-col justify-end">
                   <p className="text-xs uppercase text-designColor tracking-wide mb-2">
-                    Bound - Trolola
+                  Boundless Journeys
                   </p>
-                  <h3 className="text-2xl font-bold">Jone Duone Joe</h3>
+                  <h3 className="text-2xl font-bold">Issac Ellis</h3>
                   <p className="text-base tracking-wide text-gray-500">
-                    Operation Officer
+                    Project Manager
                   </p>
                 </div>
               </div>
               <div className="w-full lgl:w-[60%] h-full flex flex-col justify-between">
                 <img className="w-20 lgl:w-32" src={quote} alt="quote" />
-                <div className="w-full h-[70%] py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] rounded-lg shadow-shadowOne p-4 lgl:p-8 flex flex-col justify-center gap-4 lgl:gap-8">
-                  <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
+                <div className="w-full h-[70%] testimonial_1 bg-gradient-to-r from-[#1e2024] to-[#23272b] rounded-lg shadow-shadowOne p-4 lgl:p-8 flex flex-col justify-center gap-4 gap-8">
+                  <div className="flex flex-col justify-between lgl:items-center py-6  border-b-2 border-b-gray-900">
                     <div>
                       <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
-                        Travel Mobile App Design.
+                        Travel agency website.
                       </h3>
                       <p className="text-base text-gray-400 mt-3">
-                        via Upwork - Mar 4, 2015 - Aug 30, 2021 test
+                        via Upwork - Mar 4, 2023 - June 30, 2023
                       </p>
                     </div>
                     <div className="text-yellow-500 flex gap-1">
@@ -137,11 +137,7 @@ const Testimonial = () => {
                     </div>
                   </div>
                   <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
-                    dolorum, eos natus ipsum numquam veniam officia
-                    necessitatibus ratione quos debitis exercitationem
-                    repudiandae facilis id neque nihil accusantium perspiciatis
-                    repellat? Iste.
+                  Working with Haresh on our travel agency website has been an absolute pleasure. From the very beginning, his communication throughout the project was outstanding. I am impressed by your skills. I will gladly recommend your services to anyone looking for a talented web developer. I look forward to working with you again on future projects.
                   </p>
                 </div>
               </div>
@@ -163,7 +159,7 @@ const Testimonial = () => {
                   </p>
                   <h3 className="text-2xl font-bold">Edgar Davids</h3>
                   <p className="text-base tracking-wide text-gray-500">
-                    Project Manager
+                    E-Commerce Manager
                   </p>
                 </div>
               </div>
@@ -173,10 +169,10 @@ const Testimonial = () => {
                   <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
                     <div>
                       <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
-                        Travel agency website.
+                        E-Commerce Website.
                       </h3>
                       <p className="text-base text-gray-400 mt-3">
-                        via Upwork - Mar 4, 2015 - Aug 30, 2021 test
+                        via Upwork - July 25, 2023 - Sep 30, 2023
                       </p>
                     </div>
                     <div className="text-yellow-500 flex gap-1">
@@ -188,11 +184,7 @@ const Testimonial = () => {
                     </div>
                   </div>
                   <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
-                    dolorum, eos natus ipsum numquam veniam officia
-                    necessitatibus ratione quos debitis exercitationem
-                    repudiandae facilis id neque nihil accusantium perspiciatis
-                    repellat? Iste.
+                  Working with Haresh on our e-commerce website has been an absolute pleasure. he website he delivered is exactly what I envisioned—modern, functional, and user-friendly. Haresh’s attention to detail, especially in creating a seamless shopping experience, is truly commendable. I highly recommend his services to anyone looking for a talented web developer.
                   </p>
                 </div>
               </div>
@@ -205,16 +197,16 @@ const Testimonial = () => {
               <div className="w-full lgl:w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 rounded-lg shadow-shadowOne flex flex-col md:flex-row lgl:flex-col gap-8 justify-center md:justify-start lgl:justify-center">
                 <img
                   className="h-72 md:h-32 lgl:h-72 rounded-lg object-cover"
-                  src={testimonialOne}
+                  src={testimonial_3}
                   alt="testimonialOne"
                 />
                 <div className="w-full flex flex-col justify-end">
                   <p className="text-xs uppercase text-designColor tracking-wide mb-2">
                     Bound - Trolola
                   </p>
-                  <h3 className="text-2xl font-bold"></h3>
+                  <h3 className="text-2xl font-bold">David Cameron</h3>
                   <p className="text-base tracking-wide text-gray-500">
-                    Operation Officer
+                   Bussiness Owner
                   </p>
                 </div>
               </div>
@@ -224,10 +216,10 @@ const Testimonial = () => {
                   <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
                     <div>
                       <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
-                        Travel Mobile App Design.
+                        E-Learning Mobile App
                       </h3>
                       <p className="text-base text-gray-400 mt-3">
-                        via Upwork - Mar 4, 2015 - Aug 30, 2021 test
+                        via Upwork - May 4, 2024 - July 30, 2024
                       </p>
                     </div>
                     <div className="text-yellow-500 flex gap-1">
@@ -239,11 +231,7 @@ const Testimonial = () => {
                     </div>
                   </div>
                   <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
-                    dolorum, eos natus ipsum numquam veniam officia
-                    necessitatibus ratione quos debitis exercitationem
-                    repudiandae facilis id neque nihil accusantium perspiciatis
-                    repellat? Iste.
+                  Working with Haresh on our e-learning mobile app has been an absolute pleasure. He is a talented developer who is able to bring your vision to life. Haresh is always available to answer questions and provide guidance. I highly recommend his services to anyone looking for a skilled app developer.
                   </p>
                 </div>
               </div>

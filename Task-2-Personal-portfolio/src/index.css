@@ -27,3 +27,12 @@
 .scrollbar-hide::-webkit-scrollbar{
     display: none;
 }
+
+.height{
+    height: 15rem;
+}
+
+.testimonial_1{
+    padding-top: 0;
+    padding-bottom: 2.5rem;
+}
